@@ -4,6 +4,7 @@
 ## Stub for TDD
 
 ```
+git clone -b tdd-start https://github.com/dvo4253/luhn-tdd.git
 npm install
 npm run test:watch
 ```
