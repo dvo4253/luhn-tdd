@@ -5,7 +5,7 @@
 
 ```
 git clone -b tdd-start https://github.com/dvo4253/luhn-tdd.git
-cd tdd-start
+cd luhn-tdd
 npm install
 npm run test:watch
 ```
