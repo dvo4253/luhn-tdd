@@ -15,6 +15,10 @@ describe('luhn tests', () => {
         expect(luhnTest('125')).to.equal(true)
     })
 
+    it('1685 should return true', () => {
+        expect(luhnTest('1685')).to.equal(true)
+    })
+
     it('98764 should return true', () => {
         expect(luhnTest('98764')).to.equal(true)
     })

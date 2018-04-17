@@ -14,7 +14,7 @@
 // example: num = 174
 // 4 + (7 -- 14 = 5) + 1 = 10 which is divisible by 10
 export default (num) => {
-    const numStr = num.toString().split('').reverse().join('')
+    const numStr = num.toString()
     const numLength = numStr.length
     let i = numLength - 1
     let sum = 0
