@@ -6,22 +6,20 @@
   "scripts": {
     "babel-node": "babel-node index.js",
     "start": "nodemon --exec npm run babel-node",
-    "test": "mocha --require babel-register app/**/*.test.js",
+    "test": "mocha --require @babel/register app/**/*.test.js",
     "test:watch": "npm test -- --watch --watch-extensions js",
     "test:watch:min": "npm run test:watch -- --reporter=min"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "chai": "^4.1.2",
-    "mocha": "4.0.0",
-    "nodemon": "^1.17.2"
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.1"
   },
-  "babel": {
-    "presets": [
-      "env"
-    ]
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5"
   }
 }
