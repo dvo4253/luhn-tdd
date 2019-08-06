@@ -12,7 +12,7 @@
 
 
 // example: num = 174
-// 4 + (7 -- 14 = 5) + 1 = 10 which is divisible by 10
+// 4 + (7 --> 14 = 5) + 1 = 10 which is divisible by 10
 export default (num) => {
 
     return false
